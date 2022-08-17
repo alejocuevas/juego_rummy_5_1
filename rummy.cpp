@@ -724,7 +724,7 @@ int removepeorcarta(State &state)
 
 	int returnVal = state.mano_maquina[maxEvalIndex];
 
- /* Remove worst card */
+ /* Saca la peor carta */
 	state.mano_maquina.erase(state.mano_maquina.begin() + maxEvalIndex);
 
 	return returnVal;
